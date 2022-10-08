@@ -27,6 +27,10 @@ body {
     padding-right: 40px; */
 	padding: 20px 40px;
 	margin-bottom: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
 	/* height: 80px; */
 }
 
@@ -41,7 +45,24 @@ article {
 
 .post-header {
 	margin-bottom: 40px;
+
 	/* position: relative; */
+}
+.parent-container {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 18px;
+}
+.author {
+	margin-bottom: 0;
+}
+
+.related-post {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-bottom: 30px;
 }
 
 aside {
@@ -124,8 +145,17 @@ li:last-child {
 }
 
 .related-author {
-	font-size: 18px;
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 0;
+	font-style: italic;
+}
+.related-link:link {
+	font-size: 17px;
 	font-weight: bold;
+	font-style: normal;
+	display: block;
+	margin-bottom: 7px;
 }
 
 /* ul {
@@ -196,7 +226,7 @@ nav a:link {
     display: block; */
 
 	margin-right: 30px;
-	margin-top: 10px;
+
 	display: inline-block;
 }
 
